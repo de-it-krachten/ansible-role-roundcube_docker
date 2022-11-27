@@ -1,0 +1,35 @@
+---
+
+# Location where to put files
+# roundcube_docker_data: /export/docker/roundcube
+
+# FQDN of the external server
+# roundcube_fqdn: webmail.example.com
+
+# Database type to use
+roundcube_db_type: pgsql
+
+# Name of the database server
+roundcube_db_host: database
+
+# Name of the database itself
+roundcube_db_name: roundcube
+
+# Name of the database user
+roundcube_db_user: roundcube
+
+# Password for the database user
+roundcube_db_password: roundcube
+
+# Server for nginx to connect to
+roundcube_mail_host: webapp
+
+# Roundcube web ports
+roundcube_http_port: 80
+roundcube_https_port: 443
+
+# IMAP/SMTP server
+roundcube_imap_host: localhost
+roundcube_imap_port: 143
+roundcube_smtp_host: localhost
+roundcube_smtp_port: 25
