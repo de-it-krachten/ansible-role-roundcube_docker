@@ -1,0 +1,26 @@
+---
+
+- name: Converge
+  hosts: all
+  become: "yes"
+  vars:
+    roundcube_docker_data: /export/docker/roundcube
+    roundcube_fqdn: webmail.example.com
+    roundcube_db_type: pgsql
+    roundcube_db_host: database
+    roundcube_db_name: roundcube
+    roundcube_db_user: roundcube
+    roundcube_db_password: roundcube
+    roundcube_mail_host: webapp
+    roundcube_https_port: 443
+    roundcube_http_port: 80
+    roundcube_imap_host: localhost
+    roundcube_imap_port: 143
+    roundcube_smtp_host: localhost
+    roundcube_smtp_port: 25
+  roles:
+    - openssl
+  tasks:
+    - name: Include role 'ansible-role-roundcube_docker'
+      ansible.builtin.include_role:
+        name: ansible-role-roundcube_docker

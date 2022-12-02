@@ -1,0 +1,103 @@
+---
+
+# Generic
+generic:
+  role: ansible-role-wordpress_docker
+  role_short: wordpress_docker
+  role_description: |
+    Sets up a Roundcube Webmail instance using Docker.
+
+# Supported platforms
+platforms:
+  rhel7:
+    ci: false
+    supported: false
+  rhel8:
+    ci: false
+    supported: true
+  rhel9:
+    ci: false
+    supported: true
+  centos7:
+    ci: false
+    supported: false
+  centos8:
+    ci: false
+    supported: false
+  centos8s:
+    ci: false
+    supported: false
+  centos9s:
+    ci: false
+    supported: false
+  rockylinux8:
+    ci: false
+    supported: true
+  rockylinux9:
+    ci: false
+    supported: true
+  oraclelinux8:
+    ci: false
+    supported: true
+  oraclelinux9:
+    ci: false
+    supported: true
+  almalinux8:
+    ci: false
+    supported: true
+  almalinux9:
+    ci: false
+    supported: true
+  debian10:
+    ci: false
+    supported: true
+  debian11:
+    ci: false
+    supported: true
+  ubuntu1804:
+    ci: false
+    supported: true
+  ubuntu2004:
+    ci: false
+    supported: true
+  ubuntu2204:
+    ci: false
+    supported: true
+  fedora35:
+    ci: false
+    supported: true
+  fedora36:
+    ci: false
+    supported: true
+  alpine3:
+    ci: false
+    supported: true
+  docker:
+    ci: true
+    supported: true
+
+# Molecule
+molecule:
+  requirements:
+    roles_extra:
+      - openssl
+      - python
+  converge:
+    roles:
+      - openssl
+    vars:
+      # Roundcude
+      roundcube_docker_data: /export/docker/roundcube
+      roundcube_fqdn: webmail.example.com
+      roundcube_db_type: pgsql
+      roundcube_db_host: database
+      roundcube_db_name: roundcube
+      roundcube_db_user: roundcube
+      roundcube_db_password: roundcube
+      roundcube_mail_host: webapp
+      roundcube_https_port: 443
+      roundcube_http_port: 80
+      roundcube_imap_host: localhost
+      roundcube_imap_port: 143
+      roundcube_smtp_host: localhost
+      roundcube_smtp_port: 25
