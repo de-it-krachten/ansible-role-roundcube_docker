@@ -80,11 +80,11 @@ platforms:
 molecule:
   requirements:
     roles_extra:
-      - openssl
-      - python
+      - deitkrachten.openssl
+      - deitkrachten.python
   converge:
     roles:
-      - openssl
+      - deitkrachten.openssl
     vars:
       # Roundcude
       roundcube_docker_data: /export/docker/roundcube

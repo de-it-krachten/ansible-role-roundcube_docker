@@ -19,7 +19,7 @@
     roundcube_smtp_host: localhost
     roundcube_smtp_port: 25
   roles:
-    - openssl
+    - deitkrachten.openssl
   tasks:
     - name: Include role 'ansible-role-roundcube_docker'
       ansible.builtin.include_role:
