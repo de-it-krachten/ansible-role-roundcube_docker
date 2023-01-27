@@ -14,7 +14,6 @@ None
 
 #### Collections
 - community.general
-- community.general
 
 ## Platforms
 
@@ -33,8 +32,8 @@ Supported platforms
 - Ubuntu 18.04 LTS<sup>1</sup>
 - Ubuntu 20.04 LTS<sup>1</sup>
 - Ubuntu 22.04 LTS<sup>1</sup>
-- Fedora 35<sup>1</sup>
 - Fedora 36<sup>1</sup>
+- Fedora 37<sup>1</sup>
 - Alpine 3<sup>1</sup>
 - Docker dind (CI only)
 
@@ -104,7 +103,7 @@ roundcube_smtp_port: 25
     roundcube_smtp_host: localhost
     roundcube_smtp_port: 25
   roles:
-    - openssl
+    - deitkrachten.openssl
   tasks:
     - name: Include role 'roundcube_docker'
       ansible.builtin.include_role:
