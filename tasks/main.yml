@@ -8,11 +8,14 @@
 
 - name: Create location to export files to docker container from
   ansible.builtin.file:
-    path: "{{ roundcube_docker_data }}"
+    path: "{{ item }}"
     state: directory
     owner: root
     group: "{{ roundcube_docker_group | default('root') }}"
     mode: "0750"
+  loop:
+    - "{{ roundcube_docker_data }}"
+    - "{{ roundcube_docker_data }}/logs"
 
 - name: Copy OpenSSL Self-signed key + certificate
   ansible.builtin.copy:
