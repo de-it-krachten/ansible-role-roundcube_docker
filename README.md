@@ -103,7 +103,6 @@ roundcube_smtp_port: 25
     roundcube_smtp_host: localhost
     roundcube_smtp_port: 25
   roles:
-    - deitkrachten.showinfo
     - deitkrachten.openssl
   tasks:
     - name: Include role 'roundcube_docker'
