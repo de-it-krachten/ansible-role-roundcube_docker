@@ -63,10 +63,10 @@ platforms:
   ubuntu2204:
     ci: false
     supported: true
-  fedora35:
+  fedora36:
     ci: false
     supported: true
-  fedora36:
+  fedora37:
     ci: false
     supported: true
   alpine3:
@@ -80,11 +80,11 @@ platforms:
 molecule:
   requirements:
     roles_extra:
-      - openssl
-      - python
+      - deitkrachten.openssl
+      - deitkrachten.python
   converge:
     roles:
-      - openssl
+      - deitkrachten.openssl
     vars:
       # Roundcude
       roundcube_docker_data: /export/docker/roundcube
