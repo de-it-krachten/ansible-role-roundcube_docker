@@ -13,7 +13,7 @@ Sets up a Roundcube Webmail instance using Docker.
 None
 
 #### Collections
-- community.general
+- community.docker
 
 ## Platforms
 
@@ -35,8 +35,9 @@ Supported platforms
 - Ubuntu 18.04 LTS<sup>1</sup>
 - Ubuntu 20.04 LTS<sup>1</sup>
 - Ubuntu 22.04 LTS<sup>1</sup>
-- Fedora 37<sup>1</sup>
-- Fedora 38<sup>1</sup>
+- Ubuntu 24.04 LTS<sup>1</sup>
+- Fedora 39<sup>1</sup>
+- Fedora 40<sup>1</sup>
 - Alpine 3<sup>1</sup>
 - Docker dind (CI only)
 
@@ -89,7 +90,7 @@ roundcube_smtp_port: 25
 <pre><code>
 - name: sample playbook for role 'wordpress_docker'
   hosts: all
-  become: "yes"
+  become: 'yes'
   vars:
     roundcube_docker_data: /export/docker/roundcube
     roundcube_fqdn: webmail.example.com
