@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/de-it-krachten/ansible-role-roundcube_docker/compare/v1.2.0...v1.3.0) (2024-06-10)
+
+
+### Features
+
+* Add support for Ubuntu 24.04 LTS + Fedora 40 ([e229242](https://github.com/de-it-krachten/ansible-role-roundcube_docker/commit/e2292423de6cae823991ac3c5ae56818729ad02f))
+
 # [1.2.0](https://github.com/de-it-krachten/ansible-role-roundcube_docker/compare/v1.1.0...v1.2.0) (2023-09-18)
 
 
