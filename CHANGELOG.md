@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/de-it-krachten/ansible-role-roundcube_docker/compare/v1.3.0...v1.4.0) (2024-12-29)
+
+
+### Features
+
+* Update supported platforms & CI ([2cfc1ef](https://github.com/de-it-krachten/ansible-role-roundcube_docker/commit/2cfc1ef9efc499e63a418de98fe9dda5ea6f810d))
+
 # [1.3.0](https://github.com/de-it-krachten/ansible-role-roundcube_docker/compare/v1.2.0...v1.3.0) (2024-06-10)
 
 
