@@ -18,6 +18,9 @@ platforms:
   rhel9:
     ci: false
     supported: true
+  rhel10:
+    ci: false
+    supported: true
   centos7:
     ci: false
     supported: false
@@ -30,10 +33,16 @@ platforms:
   centos9s:
     ci: false
     supported: false
+  centos10s:
+    ci: false
+    supported: false
   rockylinux8:
     ci: false
     supported: true
   rockylinux9:
+    ci: false
+    supported: true
+  rockylinux10:
     ci: false
     supported: true
   oraclelinux8:
@@ -42,10 +51,16 @@ platforms:
   oraclelinux9:
     ci: false
     supported: true
+  oraclelinux10:
+    ci: false
+    supported: true
   almalinux8:
     ci: false
     supported: true
   almalinux9:
+    ci: false
+    supported: true
+  almalinux10:
     ci: false
     supported: true
   sles15:
@@ -61,6 +76,9 @@ platforms:
     ci: false
     supported: true
   debian12:
+    ci: false
+    supported: true
+  debian13:
     ci: false
     supported: true
   ubuntu1804:
@@ -87,6 +105,21 @@ platforms:
   docker:
     ci: true
     supported: true
+  win2012r2:
+    ci: false
+    supported: false
+  win2016:
+    ci: false
+    supported: false
+  win2019:
+    ci: false
+    supported: false
+  win2022:
+    ci: false
+    supported: false
+  win2025:
+    ci: false
+    supported: false
 
 # Molecule
 molecule:
