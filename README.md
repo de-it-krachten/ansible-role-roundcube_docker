@@ -97,6 +97,7 @@ roundcube_smtp_port: 25
   hosts: all
   become: 'yes'
   vars:
+    molecule_driver: '{{ lookup(''env'', ''MOLECULE_DRIVER_NAME'') }}'
     roundcube_docker_data: /export/docker/roundcube
     roundcube_fqdn: webmail.example.com
     roundcube_db_type: pgsql
