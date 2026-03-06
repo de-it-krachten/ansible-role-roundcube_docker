@@ -1,4 +1,4 @@
-[![CI](https://github.com/de-it-krachten/ansible-role-roundcube_docker/workflows/CI/badge.svg?event=push)](https://github.com/de-it-krachten/ansible-role-roundcube_docker/actions?query=workflow%3ACI)
+[![CI](https://github.com/de-it-krachten/ansible-role-wordpress_docker/workflows/CI/badge.svg?event=push)](https://github.com/de-it-krachten/ansible-role-wordpress_docker/actions?query=workflow%3ACI)
 
 
 # ansible-role-wordpress_docker
@@ -32,8 +32,9 @@ Supported platforms
 - AlmaLinux 9<sup>1</sup>
 - AlmaLinux 10<sup>1</sup>
 - SUSE Linux Enterprise 15<sup>1</sup>
+- SUSE Linux Enterprise 16<sup>1</sup>
 - openSUSE Leap 15<sup>1</sup>
-- Debian 10 (Buster)<sup>1</sup>
+- openSUSE Leap 16<sup>1</sup>
 - Debian 11 (Bullseye)<sup>1</sup>
 - Debian 12 (Bookworm)<sup>1</sup>
 - Debian 13 (Trixie)<sup>1</sup>
@@ -41,13 +42,14 @@ Supported platforms
 - Ubuntu 20.04 LTS<sup>1</sup>
 - Ubuntu 22.04 LTS<sup>1</sup>
 - Ubuntu 24.04 LTS<sup>1</sup>
-- Fedora 41<sup>1</sup>
 - Fedora 42<sup>1</sup>
+- Fedora 43<sup>1</sup>
 - Alpine 3<sup>1</sup>
 - Docker dind (CI only)
 
 Note:
 <sup>1</sup> : no automated testing is performed on these platforms
+
 
 ## Role Variables
 ### defaults/main.yml
