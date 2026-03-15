@@ -1,3 +1,14 @@
+# [1.6.0](https://github.com/de-it-krachten/ansible-role-roundcube_docker/compare/v1.5.0...v1.6.0) (2026-03-15)
+
+
+### Features
+
+* Added support for Fedora 43 ([541c871](https://github.com/de-it-krachten/ansible-role-roundcube_docker/commit/541c871576174746727d0bacb771ddc2e2bf4f96))
+* Drop support for Debian 10 (Buster) ([9ddd8cb](https://github.com/de-it-krachten/ansible-role-roundcube_docker/commit/9ddd8cbe385577feed81f15d2d54b4a263fa6fe0))
+* Drop support for Fedora 41 ([77a7678](https://github.com/de-it-krachten/ansible-role-roundcube_docker/commit/77a767871fe9695b1ad6c4203ab8764abf6a191a))
+* Drop support for openSUSE Leap 15 ([17eab6e](https://github.com/de-it-krachten/ansible-role-roundcube_docker/commit/17eab6eb4fc2130c7e3ffb023e8f9010c1baa2ae))
+* Drop support for SUSE Linux Enterprise 15 ([fcaa711](https://github.com/de-it-krachten/ansible-role-roundcube_docker/commit/fcaa711a284d719e6e3f03374e7b41d21753ebe1))
+
 # [1.5.0](https://github.com/de-it-krachten/ansible-role-roundcube_docker/compare/v1.4.0...v1.5.0) (2025-09-03)
 
 
