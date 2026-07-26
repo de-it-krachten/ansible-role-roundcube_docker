@@ -1,3 +1,12 @@
+# [1.7.0](https://github.com/de-it-krachten/ansible-role-roundcube_docker/compare/v1.6.0...v1.7.0) (2026-07-26)
+
+
+### Features
+
+* Added support for Fedora 44 ([a612091](https://github.com/de-it-krachten/ansible-role-roundcube_docker/commit/a6120912ba58c9d3e3ea1d6a28ae3904be1dc699))
+* Added support for Ubuntu 26.04 LTS ([a7918c9](https://github.com/de-it-krachten/ansible-role-roundcube_docker/commit/a7918c954d09ebaa000ccca5c913d68d97ed7b15))
+* Drop support for Fedora 42 ([2ec0b68](https://github.com/de-it-krachten/ansible-role-roundcube_docker/commit/2ec0b68a1585eaf5d223c8c9648976f2bf6f910b))
+
 # [1.6.0](https://github.com/de-it-krachten/ansible-role-roundcube_docker/compare/v1.5.0...v1.6.0) (2026-03-15)
 
 
