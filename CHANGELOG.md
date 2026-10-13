@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/de-it-krachten/ansible-role-roundcube_docker/compare/v1.7.0...v1.8.0) (2026-10-13)
+
+
+### Features
+
+* Drop support for Debian 11 (Bullseye) ([dcc8dec](https://github.com/de-it-krachten/ansible-role-roundcube_docker/commit/dcc8dec62c21c55fa3b2d1d22399c7dd76de1f9c))
+
 # [1.7.0](https://github.com/de-it-krachten/ansible-role-roundcube_docker/compare/v1.6.0...v1.7.0) (2026-07-26)
 
 
